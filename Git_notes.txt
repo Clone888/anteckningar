@@ -1,0 +1,50 @@
+- Keybindings MB-fil -
+
+i = insert mode
+esc = hoppa ut ur insert mode
+
+h = pil till vänster
+j = pil neråt
+k = pil uppåt
+l = pil till höger
+
+o = ny rad, ändras till insert mode direkt
+w = hoppa fram mellan ord
+b = hoppa tillbaka mellan ord
+
+:w = write to file / spara fil
+:wq = write & quit
+shift + z + z = gå ur en fil tillbaka till terminal
+
+"+p = paste
+
+
+
+- MB-fil -
+
+touch xx.mb = skapa en mb-fil
+vim xx.mb = öppna en mb-fil
+cat xx.mb = skriv ut fil
+
+
+
+- Övrigt -
+
+clear = clear terminal
+
+cd .. / cd xx = hoppa tillbaka eller fram mellan mappar på datorn ex. om du är i users/xx och skriver cd hamnar du i users. Om du har en mapp vid namnet zz under users/xx, skriver du cd zz.
+
+pwd = visar i vilken filväg man befinner sig i på datorn ex users/xx
+ctrl + c = avbryta kommando
+
+git commit = spara historiken i git
+  -> skriv initial commit -> hoppa ner två steg och skriv en beskrivning vad som har hänt sen senaste uppdateringen -> :wq
+
+git status = status
+
+rm -r projektnamn = remove
+
+Ls = skriv ut alla filer som finns i mappen
+ -> Ls -la = visar även gömnda filar i mappen
+
+git remote remove origin = ta bort origin om man behöver börja om
